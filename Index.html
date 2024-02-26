@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div class="mainContent">
+        <div id="ad-left" class="ad-container">
+            <!-- Google AdSense code for the left side -->
+        </div>
+        <div>
+            <h1>Basic Calculator</h1>
+            <div class="display">
+                <input type="text" id="result" value="0" disabled>
+            </div>
+            <div class="keypad">
+                <div class="row">
+                    <button class="button" onclick="handleInput('AC')">AC</button>
+                    <button class="button" onclick="handleInput('+/-')">+/-</button>
+                    <button class="button" onclick="handleInput('%')">%</button>
+                    <button class="button" onclick="handleInput('/')">/</button>
+                </div>
+                <div class="row">
+                    <button class="button" onclick="handleInput('7')">7</button>
+                    <button class="button" onclick="handleInput('8')">8</button>
+                    <button class="button" onclick="handleInput('9')">9</button>
+                    <button class="button" onclick="handleInput('*')">x</button>
+                </div>
+                <div class="row">
+                    <button class="button" onclick="handleInput('4')">4</button>
+                    <button class="button" onclick="handleInput('5')">5</button>
+                    <button class="button" onclick="handleInput('6')">6</button>
+                    <button class="button" onclick="handleInput('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="button" onclick="handleInput('1')">1</button>
+                    <button class="button" onclick="handleInput('2')">2</button>
+                    <button class="button" onclick="handleInput('3')">3</button>
+                    <button class="button" onclick="handleInput('+')">+</button>
+                </div>
+                <div class="row">
+                    <button class="button zero" onclick="handleInput('0')">0</button>
+                    <button class="button" onclick="handleInput('.')">.</button>
+                    <button class="button" onclick="handleInput('=')">=</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="ad-right" class="ad-container">
+            <!-- Google AdSense code for the right side -->
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
